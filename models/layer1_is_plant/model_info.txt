@@ -1,0 +1,12 @@
+Model: Plant Classifier (Layer 1)
+Date: 2025-05-20 01:50:55
+Architecture: MobileNetV2 (transfer learning)
+Image size: [224, 224]
+Training data: W:\Upwork\Plant identifier V2\data\data\train
+Dropout rate: 0.3
+L2 regularization: 0.001
+Class distribution: {'not_plant': 1702, 'plant': 2402}
+Initial training epochs: 30
+Fine-tuning epochs: 15
+Unfrozen layers: 80
+Final validation accuracy: 0.9620

@@ -1,0 +1,13 @@
+Classification Report:
+              precision    recall  f1-score   support
+
+   Not Plant       0.95      0.96      0.95       425
+       Plant       0.97      0.96      0.97       600
+
+    accuracy                           0.96      1025
+   macro avg       0.96      0.96      0.96      1025
+weighted avg       0.96      0.96      0.96      1025
+
+Confusion Matrix:
+[[407  18]
+ [ 21 579]]
